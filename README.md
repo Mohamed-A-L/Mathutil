@@ -1,15 +1,12 @@
 # mathutil-rs
 
-A Rust remake of [`mathutil`](../mathutil) — the interactive linear-algebra
+Interactive linear-algebra
 teaching aid — in a permanent, compiled form. Type a matrix, some vectors, or
 an equation and a native window opens with a smooth, GPU-accelerated
 visualization: grids warping under a transformation, spans shaded as
 lines/planes, dependence collapsing, Riemann cells sweeping out an integral.
 The goal is an *instant visualizer* for textbook-style math: you type what
 the problem says, the tool infers the rest.
-
-The original Python/pyqtgraph version lives untouched in `../mathutil` and
-served as the spec for this port.
 
 ## Stack
 
